@@ -13,13 +13,26 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row">
+    <div class="row header">
       <div class="col">
-        <button id="slap" onclick="slap()">Slap</button>
+        <h2>Opponent</h2>
+        <hr>
+        <div class="player-info">
+          <span>Name: <span id="name">""</span></span>
+          <span>Health: <span id="health">--</span></span>
+          <span>Hits: <span id="hits">--</span></span>
+        </div>
+        <img id="opponent-image" src="https://idiotprufs.files.wordpress.com/2017/03/bluto.png" alt="bluto_happy">
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col">
+        <button id="slap-em" onclick="slap()">Slap</button>
+        <button id="punch-em" onclick="punch()">Punch</button>
+        <button id="kick-em" onclick="kick()">Kick</button>
       </div>
     </div>
   </div>
-
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
