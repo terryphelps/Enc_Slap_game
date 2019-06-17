@@ -3,13 +3,20 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .header{
 height: 80vh;
 }
 .footer{
+  padding-top: 60px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: space-between;
 }
 #opponent-image {
   margin-left: 200px;
@@ -29,14 +36,20 @@ span {
   align-items: flex-start;
 }
 #slap-em{
-  margin: 50px;
   background-color: rgba(250, 70, 70, 0.5);
 }
 #punch-em{
-  margin: 50px;
   background-color: rgba(235, 29, 29, 0.74);
 }
 #kick-em{
-  margin: 50px;
   background-color: rgb(255, 10, 10);
+}
+#fire-em{
+  background-color: rgba(255, 63, 5, 0.945);
+}
+#rock-em{
+  background-color: rgba(71, 65, 65, 0.438);
+}
+#club-em{
+  background-color: rgba(170, 40, 8, 0.685);
 }

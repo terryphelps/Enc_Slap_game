@@ -14,22 +14,26 @@
 <body>
   <div class="container-fluid">
     <div class="row header">
+      <h2>Opponent</h2>
+      <hr>
       <div class="col">
-        <h2>Opponent</h2>
-        <hr>
         <div class="player-info">
           <span>Name: <span id="name">""</span></span>
           <span>Health: <span id="health">--</span></span>
           <span>Hits: <span id="hits">--</span></span>
+          <span>Modifiers: <span id="modifiers">--</span></span>
         </div>
         <img id="opponent-image" src="https://idiotprufs.files.wordpress.com/2017/03/bluto.png" alt="bluto_happy">
       </div>
     </div>
-    <div class="row footer">
-      <div class="col">
+    <div class="row">
+      <div class="col footer">
         <button id="slap-em" onclick="slap()">Slap</button>
         <button id="punch-em" onclick="punch()">Punch</button>
         <button id="kick-em" onclick="kick()">Kick</button>
+        <button id="fire-em" onclick="giveItem(0)">Fire</button>
+        <button id="rock-em" onclick="giveItem(1)">Rock</button>
+        <button id="club-em" onclick="giveItem(2)">Club</button>
       </div>
     </div>
   </div>
