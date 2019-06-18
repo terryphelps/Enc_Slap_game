@@ -46,7 +46,7 @@ let victim = {
 ]*/
 
 function addMods() {
-  let modTtl = 0;
+  let modTtl = 0
   for (let i = 0; i < victim.items.length; i++) {
     let item = victim.items[i]
     modTtl += item.modifier
